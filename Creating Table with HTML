@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create a Table</title>
+  </head>
+  <body>
+    
+      <!--Creating Table-->
+      <table border="1">          
+          <!--Caption-->
+          <caption>Favorite and Least Favorite Things</caption>
+          <!--Row1-->
+          <tr>
+          	<td></td>
+            <td></td>  
+            <th>Bod</th>
+            <th>Alice</th>            
+          </tr>
+          <!--Row2: Favorite -->
+          <tr>
+          	<th rowspan="2">Favorite</th>
+            <th>Color</th>  
+            <td>Blue</td>  
+            <td>Purple</td>                       
+          </tr>
+          <!--Row3:Favorite-->
+          <tr>                 
+            <th>Flavor</th>  
+            <td>Banana</td>  
+            <td>Chocolate</td>
+          </tr>
+		  <!--Row4: Least Favorite-->         
+          <tr>
+          	<th rowspan="2">Least Favorite</th>
+            <th>Color</th>  
+            <td>Yellow</td>  
+            <td>Pink</td>
+          </tr>
+          
+          <!--Row5: Least Favorite-->     
+        <tr>                 
+            <th>Flavor</th>  
+            <td>Mint</td>  
+            <td>Walnut</td>
+        </tr>                         
+      </table>          
+      <!--End of Table -->
+  </body>
+</html>
