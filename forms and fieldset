@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A form with fieldset</title>
+  </head>
+  <body>
+    <h1>Please Enter Your Details</h1>
+    <form>
+        <label for="username">Username:</label>
+        <input 
+               type="text"
+               id="username"
+               name="username"
+               placeholder="Enter your username"
+               required>
+        <br>
+    
+        <label for="password">Password:</label>
+        <input 
+               type="password"
+               id="password"
+               name="password"
+               placeholder="Enter your password"
+               required>
+        <br>
+        
+<!--         Interests Field -->
+        
+    <fieldset>
+    	<legend>Select your Interests:</legend>
+         <input
+               type=checkbox
+               name="Coding"
+               value="Coding"               
+               />
+        <label>Coding</label>
+        <input
+               type=checkbox
+               name="Design"
+               value="Design"               
+               />
+        <label>Design</label>
+                <input
+               type=checkbox
+               name="Gaming"
+               value="Gaming"               
+               />
+        <label>Gaming</label>
+    
+    </fieldset>        
+<!--         Gender -->
+    <fieldset>
+    	 <legend>
+            Select your Gender
+        </legend>
+        <input
+               type="radio"
+               name="Gender"
+               value="Male"
+               />
+        <label>Male</label>
+        <input
+               type="radio"
+               name="Gender"
+               value="Female"
+               />
+        <label>Female</label>
+        <input
+               type="radio"
+               name="Gender"
+               value="Other"
+               />
+        <label>Other</label>        
+    
+    </fieldset>           
+        <br>               
+        <input type="submit" value="Submit">
+      </form>
+</html>
