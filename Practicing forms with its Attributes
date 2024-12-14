@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Please Enter Your Details</h1>
+    <form>
+<!--         Email -->
+      <label for="Username">Username:</label>
+      <input 
+             type="text"
+             id="Username"
+             name="Username"             
+             autocomplete="on"
+             minlength="5"
+             maxlength="20"
+             size="30"
+             placeholder="Enter your username"             
+             required
+             />
+      <br />
+<!-- 		Password -->
+      <label for="Password">Password:</label> <br>
+      <input 
+             type="password"
+             id="Password" 
+             name="Password"             
+             placeholder="Enter your Password"  
+             required
+             autocomplete="on"             
+             minlength="5"
+             maxlength="20"
+             size="30"                 
+             />
+      <br />
+<!--         Disabled input -->
+      <label for="info">Disabled Input:</label> <br>
+      <input 
+             type="text"
+             id="info"
+             name="info"
+             placeholder="This field is disabled"
+             disabled 
+
+             />
+      <br /> 
+<!-- 		 submit button -->
+      <input 
+             type="submit"
+             id="submit"
+             value="Submit" />
+    </form>
+  </body>
+</html>
