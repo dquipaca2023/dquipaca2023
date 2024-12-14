@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>form for comments</title>
+</head>
+
+<body>
+  <form>
+    <h1>Please Enter your Details</h1>
+      
+    <label for="comment">Comment:</label>
+    <!-- Modify the below input into textarea thus adding rows, cols & id attributes -->
+
+    <textarea
+           type="textarea"
+           rows="10"
+           cols="30"
+           id="comment"           
+           required>      
+        
+           </textarea>
+    <br />
+
+    <label for="name">Name:</label>
+    <!-- Add the name attribute in the below input -->
+
+    <input 
+           type="name" 
+           id="name"
+           required />
+    <br />
+
+
+    <label for="email">Email:</label>
+    <!-- Add the name attribute in the below input -->
+
+    <input 
+           type="email"
+           id="email" 
+           required />
+
+    <br />
+
+    <label for="website">Website</label>
+
+    <!-- Modify the below input type to 'url' and add the name attribute -->
+    <input type="url" id="website"/>
+
+    <!-- Add an input for the "Post Comment" button below, with the type and value attributes -->
+      <input
+             type="submit"
+             name="submit"
+             value="Post Comment"
+             />
+
+  </form>
+</body>
+
+</html>
