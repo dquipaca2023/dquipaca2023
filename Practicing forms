@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    
+    , initial-scale=1.0">
+    <title>Learning Forms</title>
+</head>
+<body>
+    <h1>Please Select your date trip</h1>
+    <form>
+
+        <label for="Username">Username</label><br>
+        <input type="text" id="Username"/ required> <br>
+        <label for="Password">Password</label><br>
+        <input type="password" id="Password" required> <br>
+        <input type="submit"/>
+
+    </form>
+    
+    <!-- By Domingos Quipaca -->
+</body>
+</html>
