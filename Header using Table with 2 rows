@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header using Table</title>
+  </head>
+  <body>
+    <header>
+      
+      <table>
+        <!-- Add tr & td tags as mentined in the test cases -->
+          <tr>
+          	<td>
+              <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000002511_1706636330_for.png" alt="Idea" title="Idea" width="200px" height="200px"></img>
+            </td>
+        <td>
+        	<h1>
+                XYZ
+            </h1>
+            <h2>
+                Web Developer
+            </h2>
+        </td>              
+          </tr>          
+      </table>
+  </header>
+  <hr/>
+
+  <nav>
+  <!-- You need to add 5 anchor tag as mentioned in the test cases  -->       
+<a href="#profile">Profile</a>
+<a href="#skills">Skills</a>
+<a href="#education">Education</a> 
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>      
+  </nav>
+  </body>
+</html>
