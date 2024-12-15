@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown List</title>
+  </head>
+  <body>
+    <form>
+      <label for="fruits">Select your favorite fruit:</label>
+      <!-- create dropdown list here -->
+        <select id="fruits" name="fruits">
+            <optgroup label="Citrus Fruits">
+            	<option value="orange">Orange</option>
+            	<option value="Lemon">Lemon</option>
+            	<option value="Grapefruit">Grapefruit</option>                        </optgroup>
+            
+            <optgroup label="Berry Fruits">
+            	<option value="Strawberry" >Strawberry</option>
+            	<option value="Blueberry" >Blueberry</option>
+            	<option value="Raspberry" >Raspberry</option>
+            </optgroup>
+            
+                <optgroup label="Tropical Fruits">
+            	<option value="Banana" >Banana</option>
+            	<option value="Pineapple">Pineapple</option>
+            	<option value="Mango">Mango</option>                        </optgroup>                                   
+        </select>
+
+      <br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
