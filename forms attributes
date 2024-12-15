@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Form with Attributes</title>
+  </head>
+  <body>
+    <h1>Submit your Details</h1>
+    <form action="feed.html" method="post" target="_blank">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required />
+      <br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+
+      <br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <br />
+
+      <label for="datetime-local">Date and Time:</label>
+      <input
+        type="datetime-local"
+        id="datetime-local"
+        name="datetime-local"
+        required
+      />
+
+      <br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
