@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Did and Span</title>
+  </head>
+  <body>
+    <h1>The various Coding Languages Description</h1>
+    HTML
+
+	  <div>
+            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000002486_1705908196_HTML.png"                 
+      alt="HTML"
+      width="200"
+    />    
+      </div>
+    
+      CSS
+      <div>
+           <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000002483_1705907794_CSS.png"
+      alt="HTML"
+      width="200"
+    />
+      </div>
+
+    JavaScript
+      <div>
+        <img      src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000002485_1705908114_java.png"
+      alt="HTML"
+      width="200"
+    />
+      </div>
+
+    <p>
+      <b>1. HTML -</b>
+    </p>
+    <span>
+HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.  
+    </span>  
+      
+    <p>
+      <b>2. CSS -</b>
+    </p>
+	<span>
+    CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language
+    for laying out and structuring web pages (HTML or XML). This language
+    contains coding elements and is composed of these “cascading style sheets”
+    which are equally called CSS files.  
+    </span>
+    <p>
+      <b>3. Javascript -</b>
+    </p>
+	<span>      
+    JavaScript (JS) is a cross-platform, object-oriented programming language
+    used by developers to make web pages interactive. It allows developers to
+    create dynamically updating content, use animations, pop-up menus, clickable
+    buttons, control multimedia, etc.    	  
+    </span>
+    </body>
+</html>
