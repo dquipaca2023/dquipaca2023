@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- You need to add the link tag here as mentioned in the test cases: -->
+      <link rel="icon" type="image/png" href="https://ninjasfiles.s3.amazonaws.com/asset_0000000000002493_1705989973_seo.png">
+
+    <title>Resume</title>
+  </head>
+  <body>
+
+    <header>
+      <table>
+        <tr>
+          <td>
+            <img
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000002511_1706636330_for.png"
+              alt="A descriptive caption"
+              width="200"
+            />
+          </td>
+          <td>
+            <h1>XYZ</h1>
+            <h2>Web Developer</h2>
+            <details>
+              <summary><b>Contact Information</b></summary>
+              <p><b>Email: xyz@gmail.com</b></p>
+              <p><b>Phone: (123) 456-7890</b></p>
+            </details>
+          </td>
+        </tr>
+      </table>
+    </header>
+
+    <hr />
+
+    <nav>
+      <a href="#about">Profile</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+    </nav>    
+    <br />
+
+    <main>
+      <section id="profile">
+        <h2>Profile</h2>
+        <p>
+          Technical support representative with 5+ years of experience resolving
+          user-end issues with hardware and software. Received an average 85%
+          customer satisfaction rating to date, and managed installation and
+          configuration of a new network system with a team of four. Seeking to
+          utilize my background in technical support to secure management
+          opportunities in information technology.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+        </ul>
+      </section>
+
+
+      <section id="education">
+        <h2>Education</h2>
+        <article>
+          <h3>BS in Computer Science</h3>
+         <figure>
+         			<img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000002492_1705955966_iit.jpg" alt="IIT Roorkee" title="IIT Roorkee" width="400px" height="300px"/>
+             <figcaption>
+        			<!-- Use figcaption tag for each paragraph -->
+          			<p>IIT Roorkee - Roorkee, India</p>
+            </figcaption>		     
+          	<figcaption>
+                 <p>Date Range- 2016 - 2020</p>
+             </figcaption>
+         </figure>  
+        
+        </article>
+        <article>
+          <h3>Intermediate in Science</h3>
+          <figure>
+          <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000002490_1705926197_buildingimg.jpg" alt="St.John's Sr. School" title="St.John's Sr. School" width="400" height="300"/>
+              
+              <figcaption>
+                      <!-- Use figcaption tag for each paragraph -->
+                      <p>St.John's Sr. School - Lucknow, India</p>
+              </figcaption>		
+              <figcaption>	
+                      <p>Date Range- 2015 - 2016</p>    
+              </figcaption>
+          </figure>
+          
+        </article>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+
+        <article>
+          <h3>Web Developer</h3>
+          <p><span>Google</span> - <span>Gurgaon, India </span></p>
+          <p><span>Date Range - 2020-Present</span></p>
+          <p>
+            The web developer is responsible for planning and developing
+            software solutions and web applications, supporting and maintaining
+            a company's websites and digital products. The day-to-day work of
+            the web developer highly depends on constantly evolving internet
+            innovations.
+          </p>
+        </article>
+
+        <article>
+          <h3>UI/UX Designer</h3>
+          <p><span>Adobe</span> - <span>Noida, India</span></p>
+          <p><span>Date Range- 2016 - 2019</span></p>
+          <p>
+            UI UX designers create the user interface for an app, website, or
+            other interactive media. Their work includes collaborating with
+            product managers and engineers to gather requirements from users
+            before designing ideas that can be communicated using storyboards.
+            They also process flows or sitemaps.
+          </p>
+        </article>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div>
+          <h3>Library Management System</h3>
+          <p>
+            A Library Management System is software that provides the ability to
+            find books, manage books, track borrowed books, managing fines and
+            bills all in one place. It helps the librarian manage the books and
+            books borrowed by members and automates most of the library
+            activities.
+          </p>
+        </div>
+        <div>
+          <h3>Food Ordering Website</h3>
+          <p>
+            The process consists of a customer choosing the restaurant of their
+            choice, scanning the menu items, choosing an item, and finally
+            choosing for pick-up or delivery. Payment is then administered by
+            paying with a credit card or debit card through the app or website
+            or in cash at the restaurant when going to pickup.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <hr />
+    <footer>
+      <p>&copy; 2024 Amnish Verma Resume. All rights reserved.</p>
+    </footer>
+  </body>
+</html>  
