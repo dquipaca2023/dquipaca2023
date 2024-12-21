@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Best Coding Practices</title>
+</head>
+
+<body>     
+    
+     <!-- Use h1 tag here  -->
+    <h1>Best Coding Practices for Hassle-free Programming</h1>
+
+     <!-- Use paragraph tag here -->
+    <p>
+        Just like with any other activity, the world of coding is also governed by informal rules.
+    </p> 
+
+     <!-- Use h2 tag here  -->
+    <h2>PREREQUISITES</h2>
+
+     <!-- Use paragraph tag here  -->
+    <p>
+        In absence of these, a code may be inefficient even if it is completed.
+    </p> 
+
+     <!-- Use h3 tag here  -->
+     <h3>COMMENTING</h3>
+
+     <!-- Use paragraph tag here  -->
+     <p>
+       Commenting is one such practice that is often ignored by programmers.  
+    </p>
+
+     <!-- Use h3 tag here -->
+    <h3>TESTING</h3>
+
+     <!-- Use paragraph tag here  -->
+     <p>
+        Testing is also a necessary part in the process of coding.  
+    </p>
+     
+  
+</body>
+
+</html>
