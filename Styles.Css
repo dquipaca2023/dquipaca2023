@@ -1,23 +1,33 @@
-* write code for all the external styles with the use of id, class and type selector here */
-#mainHeading{
-    text-transform:uppercase;
+ /* use the type/element selector to style the body element */
+  
+ #mainHeading {
+    text-transform: uppercase;
     text-shadow: 2px 2px 2px cyan;
     font-family: "Arial", sans-serif;
-    font-weight:bold;
-    text-align:center; 
-	}
-
-.backgroundExample{
-    font-family:'Franklin Gothic Medium', Arial, sans-serif;
+    font-weight: bold;
+    position:center;
+  }
+  .backgroundExample {
+    font-family: "Franklin Gothic Medium", Arial, sans-serif;
     font-weight: bolder;
-    letter-spacing:2px;		
-    }
+    letter-spacing: 2px;
+    color: white;
+  }
 
-.textSection{
-    font-family:"Courier New", Courier, monospace;         
-    }
-.textStyle{	
+  .textSection {
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+  }
+
+  .textStyle {
     font-family: "Times New Roman", serif;
-    font-weight:bolder;
-    text-align:center;  
-    }
+    font-weight: bolder;
+    color: white;
+  }
+
+body{    background-image:url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000002590_1708581210_scenery.jfif);    
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    text-align:center;      
+	}
