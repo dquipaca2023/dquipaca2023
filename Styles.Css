@@ -1,33 +1,44 @@
- /* use the type/element selector to style the body element */
+body {
+  background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000002590_1708581210_scenery.jfif");
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+#mainHeading {
+  text-transform: uppercase;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 4vw;
+  text-shadow:2px 2px 2px rgb(0, 217, 255);
+}
+
+.backgroundExample {
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.textSection {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.textStyle {
+  font-family: "Times New Roman", serif;
+  font-weight: bolder;
+  font-size: 30px;
+  color:#0b86f3;
+}
+
+img {
+  width: 40%;
+  height: 22rem;
+}
+
+#bottom{
+    background-color:#bc98ff;
+    color:#000000;
+    text-align:center;
   
- #mainHeading {
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px cyan;
-    font-family: "Arial", sans-serif;
-    font-weight: bold;
-    position:center;
-  }
-  .backgroundExample {
-    font-family: "Franklin Gothic Medium", Arial, sans-serif;
-    font-weight: bolder;
-    letter-spacing: 2px;
-    color: white;
-  }
-
-  .textSection {
-    font-family: "Courier New", Courier, monospace;
-    color: white;
-  }
-
-  .textStyle {
-    font-family: "Times New Roman", serif;
-    font-weight: bolder;
-    color: white;
-  }
-
-body{    background-image:url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000002590_1708581210_scenery.jfif);    
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-size:cover;
-    text-align:center;      
-	}
+}
