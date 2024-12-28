@@ -1,44 +1,62 @@
 body {
-  background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000002590_1708581210_scenery.jfif");
-  background-size: cover;
-  text-align: center;
-  background-attachment: fixed;
-}
-
-#mainHeading {
-  text-transform: uppercase;
-  font-family: "Arial", sans-serif;
-  font-weight: bold;
-  text-decoration: underline;
-  font-size: 4vw;
-  text-shadow:2px 2px 2px rgb(0, 217, 255);
-}
-
-.backgroundExample {
-  font-family: "Franklin Gothic Medium", Arial, sans-serif;
-  font-weight: bolder;
-  letter-spacing: 2px;
-}
-
-.textSection {
-  font-family: "Courier New", Courier, monospace;
-}
-
-.textStyle {
-  font-family: "Times New Roman", serif;
-  font-weight: bolder;
-  font-size: 30px;
-  color:#0b86f3;
-}
-
-img {
-  width: 40%;
-  height: 22rem;
-}
-
-#bottom{
-    background-color:#bc98ff;
-    color:#000000;
-    text-align:center;
+    font-family: "Arial", sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
   
+  header {
+    background-color: #3498db;
+    color: white;
+    padding: 2px 2px;
+  }
+
+  .reservation-form {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  button {
+    background-color: #0008ee;
+    color: white;
+  }
+
+article{
+    border: 3px solid #3498db;        
+    border-radius:10px;
+    margin:10px 5px; 
+    padding:15px;
+    width:300px;
+    text-align:left;
+    background-color:#ffffff;    
 }
+
+img{
+    width:100%;
+    border-radius:10px;
+    margin-top:5px;
+}
+
+form{
+    padding:20px;
+    margin:20px;
+    border-radius:10px;
+}
+
+.footer-tag{
+    width:100%;
+    padding:20px;
+    margin:10px 0px;
+    box-sizing:border-box;
+    border: 1px solid;
+    border-color:#3498db;
+    border-radius:5px;  
+}
+
+.click{
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;    
+}
+  
