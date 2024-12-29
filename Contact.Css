@@ -1,0 +1,46 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+  
+
+
+.contact-form {
+  background-color: #3498db;
+  color: white;
+  padding:10px;
+}
+
+/* Header Styling */
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+}
+
+label {
+  color: white;
+  font-size: 16px;
+}
+
+button {
+  background-color: #1324e4;
+  color: white;
+  padding:10px 20px;
+  border-style:none;
+  border-radius:5px;
+  width:250px;  
+}
+.forms{
+  width:1000px;
+  padding:5px;
+  margin:10px 10px;
+  box-sizing:border-box;
+  border-style:solid;
+  border-color:#3498db;
+  border-radius:5px;  
+}
